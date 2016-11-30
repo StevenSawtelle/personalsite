@@ -1,8 +1,8 @@
-# Stylish Portolio template for Jekyll
+# Personal Site of Steven Sawtelle
 
 A Jekyll implementation of the [Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) template by [Start Bootstrap](http://startbootstrap.com/).
 
-See the site in action at https://volny.github.io/stylish-portfolio-jekyll/
+See the site in action at www.stevensawtelle.me
 
 ## To use the Stylish Portfolio template in your project
 
