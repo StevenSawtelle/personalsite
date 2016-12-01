@@ -5,8 +5,21 @@
         <img src="../img/steven profile.jpg" class="img-circle" alt="steven profile" width="384" height="436">
       </div>
       <div class="col-sm-8">
-        <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-        <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="..img/portfolio-1.jpg" alt="portfolio-1" width="32" height="32">
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="..img/portfolio-2.jpg" alt="portfolio-2" width="32" height="32">
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="..img/portfolio-3.jpg" alt="portfolio-3" width="32" height="32">
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="..img/portfolio-4.jpg" alt="portfolio-4" width="32" height="32">
+        <script>
+        function bigImg(x) {
+            x.style.height = "64px";
+            x.style.width = "64px";
+        }
+
+        function normalImg(x) {
+            x.style.height = "32px";
+            x.style.width = "32px";
+        }
+        </script>
       </div>
     </div>
   </div>
