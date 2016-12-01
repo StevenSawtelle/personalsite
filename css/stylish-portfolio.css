@@ -90,6 +90,15 @@ hr.small {
     list-style: none;
 }
 
+.myProfile {
+  visibility: hidden;
+  height: 218px;
+  width: 128px;
+  margin: 0 auto;
+  background: url(../img/steven profile.jpg);
+}
+
+
 .sidebar-nav li {
     text-indent: 20px;
     line-height: 40px;
