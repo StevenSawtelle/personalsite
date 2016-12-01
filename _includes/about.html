@@ -36,20 +36,21 @@
     <script>
         function changeWord(x){
             if (x==1) {
-                myHeader="Sports!"
+                greeting="Sports!"
             }
             if (x==2) {
-                myHeader="Family!"
+                greeting="Family!"
             }
             if (x==3) {
-                myHeader="Hackathons!"
+                greeting="Hackathons!"
             }
             if (x==4) {
-                myHeader="Friends!"
+                greeting="Friends!"
             }
             if (x==5) {
-                myHeader="Travel!"
+                greeting="Travel!"
             }
+            document.getElementById("myHeader").innerHTML = greeting;
         }
     </script>
 </section>
