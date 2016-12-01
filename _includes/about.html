@@ -22,12 +22,34 @@
     <center>
     <div class="row">
         <div class="container">
-                <img src="../img/beach_volleyball_pic2.jpg" class="img-rounded" style="margin:10px;width:200px;">
-                <img src="../img/thefam2016.jpg" class="img-rounded"  style="margin:10px;width:200px;">
-                <img src="../img/hackathon.jpg" class="img-rounded"  style="margin:10px;width:200px;">
-                <img src="../img/escape_room.jpg" class="img-rounded"  style="margin:10px;width:200px;">
-                <img src="../img/waterfall.jpg" class="img-rounded"  style="margin:10px;width:200px;">
+                <img onmouseover="changeWord(1)" src="../img/beach_volleyball_pic2.jpg" class="img-rounded" style="margin:10px;width:200px;">
+                <img onmouseover="changeWord(2)" src="../img/thefam2016.jpg" class="img-rounded"  style="margin:10px;width:200px;">
+                <img onmouseover="changeWord(3)" src="../img/hackathon.jpg" class="img-rounded"  style="margin:10px;width:200px;">
+                <img onmouseover="changeWord(4)" src="../img/escape_room.jpg" class="img-rounded"  style="margin:10px;width:200px;">
+                <img onmouseover="changeWord(5)" src="../img/waterfall.jpg" class="img-rounded"  style="margin:10px;width:200px;">
         </div>
     </div>
     </center>
+    
+    <h3 id="myHeader"></h3>
+    
+    <script>
+        function changeWord(x){
+            if (x==1) {
+                myHeader="Sports!"
+            }
+            if (x==2) {
+                myHeader="Family!"
+            }
+            if (x==3) {
+                myHeader="Hackathons!"
+            }
+            if (x==4) {
+                myHeader="Friends!"
+            }
+            if (x==5) {
+                myHeader="Travel!"
+            }
+        }
+    </script>
 </section>
