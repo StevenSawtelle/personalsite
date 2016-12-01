@@ -17,7 +17,7 @@
                     </div>
             </div>
     </div>
-    <center><font size="6">I also have a few hobbies I'm quite fond of. Hover for more info</font></center>
+    <center><font size="6">I also have a few hobbies I'm quite fond of. Hover for more info!</font></center>
     <br>
     <center>
     <div class="row">
@@ -32,27 +32,36 @@
     </center>
     
     <center>
-    <h3 id="myHeader">Testing</h3>
+    <h3 id="myHeader"></h3>
+    <h2 id="description"></h2>
     </center>
     
     <script>
         function changeWord(x){
+            var greeting;
+            var desc;
             if (x==1) {
                 greeting="Sports!"
+                desc="Volleyball, Spikeball, Basetball, and more. Intramural competitor and hopeful one-day champion at ASU."
             }
             if (x==2) {
                 greeting="Family!"
+                desc="Youngest of 5 siblings, uncle to 4 and counting. Family is a huge part of my life."
             }
             if (x==3) {
                 greeting="Hackathons!"
+                desc="Huge hackathon competitor. I even got third place in this one!"
             }
             if (x==4) {
                 greeting="Friends!"
+                desc="Not to brag, but we're 3/3 on Escape the Room challenges as a friend group (those things are great"
             }
             if (x==5) {
                 greeting="Travel!"
+                desc="America to China and anywhere in between." 
             }
             document.getElementById("myHeader").innerHTML = greeting;
+            document.getElementById("description").innerHTML = desc;
         }
     </script>
 </section>
