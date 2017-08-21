@@ -1,12 +1,20 @@
-# See this site at stevensawtelle.me
+# bryanpanesa.github.io
+Bryan Jay B. Panesa's Personal portfolio website.
 
-A Jekyll implementation of the [Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) template by [Start Bootstrap](http://startbootstrap.com/).
+This is my personal portfolio website containing different an in depth description about projects I have done and contributed to. 
+Here's a live demo: https://bryanpanesa.github.io/
 
-Built to showcase my personal interests, what makes me cool, and my projects as I start to work on them.
+## Tools Used
 
-## If you would like to use a similar template to what I based this off of, check this out!
+> * HTML
+> * CSS
+> * JavaScript
+> * JQuery
 
-- Start by adding your info in `_config.yml`
-- Add as many address lines as you want. Your address will also be used to show your location on the map.
-- For the emdeded map to work you'll need to [get a key from Google Maps Embed API](https://developers.google.com/maps/documentation/embed/?hl=en)
-- In `_layouts/front.html` reorder or remove section as you prefer.
+## Screenshots
+
+![header](https://user-images.githubusercontent.com/28181502/27298110-f89c41aa-5559-11e7-9b4f-442060703c9c.PNG)
+
+![image](https://user-images.githubusercontent.com/28181502/27338242-417b2b18-5607-11e7-8a5a-8904332e0a56.png)
+
+I hope you enjoy and get a cool idea out of this project.
