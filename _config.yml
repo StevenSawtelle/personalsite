@@ -4,8 +4,7 @@ email:
 description: > # this means to ignore newlines until "baseurl:"
   Personal site of Steven Sawtelle, student at Arizona State university,
   Software Engineering intern, and big fan of making Twitter bots.
-baseurl: "/sawtelleme" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+baseurl: /blog/
 
 # User setting
 owner: Steven Sawtelle
@@ -17,8 +16,6 @@ address:
   - line:
   - line:
   # Feel free to add more lines here 
-telephone: (623) 523-7572
-copyright:
 
 # API settings
 google_api_key:

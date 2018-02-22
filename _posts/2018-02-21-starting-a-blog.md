@@ -1,0 +1,6 @@
+---
+layout: post
+title: Starting to Blog 
+permalink: /blogpost/
+---
+I've wanted to blog for a while, so here it is. This will hopefully be the place for thoughts I have on everything from tech to life. I already have a bunch of ideas, so I look forward to exploring them here! Hopefully you read something you find useful.
