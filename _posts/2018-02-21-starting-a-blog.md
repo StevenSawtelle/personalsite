@@ -1,6 +1,6 @@
 ---
 title: Starting to Blog 
-permalink: /blog/starting-to-blog
+permalink: /starting-to-blog
 ---
 <head>
 		<meta charset="utf-8">
