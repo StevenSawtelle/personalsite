@@ -20,7 +20,7 @@ layout: default
 		<h1>Steven Sawtelle</h1>
 		<h2>Arizona State University Class of 2019</h2>
 			<p>
-                <a href="/blog/" class="nav">Check out my Blog!</a>
+                <a href="/blog" class="nav">Check out my Blog!</a>
             </p>
         </center>
 		<hr>
