@@ -1,5 +1,5 @@
 ---
-title: Short Story: Gazelle Hunt
+title: Gazelle Hunt
 layout: default
 permalink: /blog/gazelle-hunt
 ---
@@ -12,7 +12,7 @@ permalink: /blog/gazelle-hunt
 		<link rel="stylesheet" type="text/css" href="../../../css/animate.css">
 </head>
 
-<center><b><h1>Gazelle Hunt</h1></b></center>
+<center><b><h1>Short Story: Gazelle Hunt</h1></b></center>
 
 <i>So recently I started writing a few short stories just for fun, and thought this site would be a good place to keep them. I'll title them Short Story: like this one for future reference!</i>
 
