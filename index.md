@@ -70,9 +70,6 @@ layout: default
 					</a>
 					</div>
 					</center>
-				</div>
-		</div>
-	</div>
 	<!-- END OF about -->
 	<div class="contact" id="contact">
 			<div class="wow bounceInLeft" data-wow-duration="2s">
