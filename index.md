@@ -40,7 +40,7 @@ layout: default
 					<p class="foo wow bounceInLeft" data-wow-duration="2s">Bachelor of Science in Computer Science</p>
 					<p class="wow bounceInLeft" data-wow-duration="2s"><i class="fa fa-university"></i>
 					Arizona State University</p>
-					<p class="wow bounceInLeft" data-wow-duration="2s"><i class="fa fa-calendar "></i> August 2015 - (Expected) May 2019</p>
+					<p class="wow bounceInLeft" data-wow-duration="2s"><i class="fa fa-calendar "></i> August 2015 - May 2019</p>
 					<img class="gradhat" src="images/nus.png" alt="Education">
 					<p class="foo wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s">University Exchange Program</p>
 					<p class="wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s"><i class="fa fa-university"></i>
@@ -56,11 +56,11 @@ layout: default
 				<div class="about3">
 					<center><h2>About Me</h2></center>
 					
-					<p>Hi, I'm Steven Sawtelle! I'm a 22 year old Computer Science Senior at Arizona State University. I've worked at <a class="linked" rel="nofollow" href="https://google.com/" alt="Google">Google</a>, <a class="linked" rel="nofollow" href="https://psware.com/" alt="Performance">Performance Software</a> and <a class="linked" rel="nofollow" href="https://viasat.com/" alt="ViaSat">ViaSat, Inc.</a> as a Software Engineering Intern and spent an amazing semester studying abroad at the <a class="linked" rel="nofollow" href="http://nus.edu.sg/" alt="NUS">National University of Singapore</a>, where I took classes in Advanced Data Structures and Algorithms, Game Design, Bollywood Studies, and Linguistics.</p>
+					<p>Hi, I'm Steven Sawtelle! I'm a recent college grad currently working at Bloomberg as a Software Engineer. I'm currently working with the Philanthropy team to develop tools that make engaging employees in philanthropic events easier, and I love it. Before I graduated, I interned at <a class="linked" rel="nofollow" href="https://google.com/" alt="Google">Google</a>, <a class="linked" rel="nofollow" href="https://psware.com/" alt="Performance">Performance Software</a> and <a class="linked" rel="nofollow" href="https://viasat.com/" alt="ViaSat">ViaSat, Inc.</a> as a Software Engineering Intern and spent an amazing semester in 2017 studying abroad at the <a class="linked" rel="nofollow" href="http://nus.edu.sg/" alt="NUS">National University of Singapore</a>, where I took classes in Advanced Data Structures and Algorithms, Game Design, Bollywood Studies, and Linguistics.</p>
 
-					<p>I love working in education and with education technology. To this end, I have <a class="linked" rel="nofollow" href="https://www.cusd80.com/" alt="Chandler Schools">worked with local school districts</a> as well as <a class="linked" rel="nofollow" href="https://www.facebook.com/initioneducationsolution/" alt="Local Clubs">local clubs</a> to bring programming courses into the schools of <b>all</b> children, started a 3D printing club at <a class="linked" rel="nofollow" href="https://www.clubzona.org/" alt="The Boys and Girls Club of Tempe"> and have participated in mentorship programs across Phoenix, Arizona to help students get into coding and teach refugees English.</p>
+					<p>I'm all about Software Engineering for good, so that's where I'm hoping to spend most of my career. If you want to talk about this with me, please feel free to reach out!</p>
 
-					<p>I will be starting at Bloomberg as a Software Engineer on the Philanthropy Engineering department in July 2019 in New York City and am very excited! Some of my other interests are 3D printing, woodworking, game and escape room design/playing, public policy, writing(check out my blog), and data visualization.</p>
+					<p>Some of my other interests are 3D printing, plotting, woodworking, game and escape room design/playing, public policy, writing(check out my blog), hiking, and data visualization.</p>
 
 					<center><div class="center-button wow">
 					<a class="resume-link" href="StevenSawtelleResume.pdf" download>
@@ -99,4 +99,3 @@ layout: default
 				</a>
 			</div>
 		</div>
-	</body>
