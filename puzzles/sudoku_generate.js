@@ -5,7 +5,6 @@ import {generate} from './get_grid.js';
 
 var camera, controls, scene, renderer, cubes;
 let grid = generate("easy");
-console.log(grid);
 init();
 animate();
 //render(); // remove when using next line for animation loop (requestAnimationFrame)
@@ -103,30 +102,29 @@ function init() {
 }
 
 function onKeyDown(event){
-	console.log(event.keyCode)
-	if(event.keyCode == 48){//0
-		clickedObject.val = 0;
-	}else if(event.keyCode == 49){//1
-		clickedObject.val = 1;
-	}else if(event.keyCode == 50){//2
-		clickedObject.val = 2;
-	}else if(event.keyCode == 51){//3
-		clickedObject.val = 3;
-	}else if(event.keyCode == 52){//4
-		clickedObject.val = 4;
-	}else if(event.keyCode == 53){//5
-		clickedObject.val = 5;
-	}else if(event.keyCode == 54){//6
-		clickedObject.val = 6;
-	}else if(event.keyCode == 55){//7
-		clickedObject.val = 7;
-	}else if(event.keyCode == 56){//8
-		clickedObject.val = 8;
-	}else if(event.keyCode == 57){//9
-		clickedObject.val = 9;
+	if(event.keyCode >= 49 && event.keyCode <= 57){
+		if(event.keyCode == 49){//1
+			clickedObject.val = 1;
+		}else if(event.keyCode == 50){//2
+			clickedObject.val = 2;
+		}else if(event.keyCode == 51){//3
+			clickedObject.val = 3;
+		}else if(event.keyCode == 52){//4
+			clickedObject.val = 4;
+		}else if(event.keyCode == 53){//5
+			clickedObject.val = 5;
+		}else if(event.keyCode == 54){//6
+			clickedObject.val = 6;
+		}else if(event.keyCode == 55){//7
+			clickedObject.val = 7;
+		}else if(event.keyCode == 56){//8
+			clickedObject.val = 8;
+		}else if(event.keyCode == 57){//9
+			clickedObject.val = 9;
+		}
+		let materialArray = getMaterialArray(clickedObject.val, false);
+		clickedObject.material = materialArray;
 	}
-	let materialArray = getMaterialArray(clickedObject.val, false);
-	clickedObject.material = materialArray;
 }
 
 function onWindowResize() {

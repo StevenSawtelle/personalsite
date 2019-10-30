@@ -595,7 +595,6 @@ var generate = function (difficulty) {
     }
     var time = new Date().getTime() - start;
     debug('Generated puzzle with ' + keys(generatedGrid).length + ' squares in ' + time + 'ms');
-    console.log(generatedGrid)
     let temp = convert(generatedGrid);
 
     return temp;
