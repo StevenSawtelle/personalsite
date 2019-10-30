@@ -30,7 +30,7 @@ const unpickedMap = {'.':"none_unpicked.png",
 					};
 
 var loader = new TextureLoader();
-loader.setPath( './textures/' );
+loader.setPath( './puzzles/textures/' );
 
 var getMaterialArray = function ( num, isPicked ) {
 	let tex = "";

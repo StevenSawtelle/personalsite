@@ -12,6 +12,8 @@ title: Puzzles
 		<link rel="stylesheet" type="text/css" href="../css/animate.css">
 </head>
 
+# <center>{{ page.title }}</center>
+
 <ul>
     <li>
         <a href="/sudoku" class="nav">Sudoku</a>
