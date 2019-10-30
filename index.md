@@ -31,6 +31,7 @@ layout: default
 		<h2>Arizona State University Class of 2019</h2>
 			<p>
                 <a href="/blog" class="nav">Check out my Blog!</a>
+                <a href="/puzzles" class="nav">Play some puzzles I made!</a>
             </p>
         </center>
 		<hr>
