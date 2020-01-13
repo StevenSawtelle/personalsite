@@ -31,6 +31,7 @@ function init() {
 	// controls.maxPolarAngle = Math.PI ;
 	// world
 	var off_x = -90;
+	var off_y = 0;
 	var off_z = -90;
 
 	cubes = new THREE.Group();
@@ -41,58 +42,48 @@ function init() {
 	let extra_offset = 4;
 	let cube_size = 20;
 
-	for ( var i = 1; i <= 9; i ++ ) {
-		for(var j = 1; j <= 9; j++){
+	for(var depth=1; depth <= 9; depth++){
+		for ( var i = 1; i <= 9; i ++ ) {
+			for(var j = 1; j <= 9; j++){
 
-			let curVal = grid[i-1][j-1];
-			let materialArray = getMaterialArray(curVal, false);
-			var geometry = new THREE.CubeGeometry( cube_size,cube_size,cube_size );
-			var cube = new THREE.Mesh( geometry, materialArray );
-			cube.row = i;
-			cube.col = j;
-			cube.val = curVal;
+				let curVal = grid[i-1][j-1];
+				let materialArray = getMaterialArray(curVal, false);
+				var geometry = new THREE.CubeGeometry( cube_size,cube_size,cube_size );
+				var cube = new THREE.Mesh( geometry, materialArray );
+				cube.row = i;
+				cube.col = j;
+				cube.val = curVal;
 
-			cube.position.x = off_x;
-			cube.position.y = 0;
-			cube.position.z = off_z;
-			// cube.material.color.setHex( 0xffffff );
+				cube.position.x = off_x;
+				cube.position.y = off_y;
+				cube.position.z = off_z;
+				// cube.material.color.setHex( 0xffffff );
 
-			off_x += small_offset;
-			if(j % 3 == 0){
-				off_x += extra_offset;
+				off_x += small_offset;
+				if(j % 3 == 0){
+					off_x += extra_offset;
+				}
+				// if(i % 9 == 0){
+				// 	off_x = -90;
+				// 	off_z += 21;
+				// }
+
+				// cube.updateMatrix();
+				// cube.matrixAutoUpdate = false;
+				cubes.add(cube);
+				// scene.add( cubes );
+
 			}
-			// if(i % 9 == 0){
-			// 	off_x = -90;
-			// 	off_z += 21;
-			// }
-
-			// cube.updateMatrix();
-			// cube.matrixAutoUpdate = false;
-			cubes.add(cube);
-			// scene.add( cubes );
-
-		}
-		if(i % 3 == 0){
-			off_z += extra_offset;
+			if(i % 3 == 0){
+				off_z += extra_offset;
+			}
+			off_x = -90;
+			off_z += small_offset;
 		}
 		off_x = -90;
-		off_z += small_offset;
+		off_z = -90;
+		off_y += small_offset + extra_offset;
 	}
-	// lights
-	// var light = new THREE.AmbientLight( 0x404040 ); // soft white
-	// //light.position.set( 1, 1, 1 );
-	// scene.add( light );
-
-
-
-
-
-	// var light = new THREE.DirectionalLight( 0x002288 );
-	// light.position.set( - 1, - 1, - 1 );
-	// scene.add( light );
-	// var light = new THREE.AmbientLight( 0x222222 );
-	// scene.add( light );
-	//
 	window.addEventListener( 'resize', onWindowResize, false );
 	window.addEventListener( 'mousemove', onMouseMove, false );
 	window.addEventListener( 'click', onClick, false );

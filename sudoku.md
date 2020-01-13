@@ -12,4 +12,4 @@ title: Sudoku
 		<link rel="stylesheet" type="text/css" href="../css/animate.css">
 </head>
 
-<script src="./puzzles/sudoku_generate.js" type="module"></script>
+<script src="./puzzles/sudoku/sudoku_generate.js" type="module"></script>
