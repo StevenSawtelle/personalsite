@@ -28,7 +28,7 @@ layout: default
 	<div class="about" id="about">
 	<center>
 		<h1>Steven Sawtelle</h1>
-		<h2>Arizona State University Class of 2019</h2>
+		<!-- <h2>Arizona State University Class of 2019</h2> -->
 			<p>
                 <a href="/blog" class="nav">Check out my Blog!</a>
                 <!-- or 
