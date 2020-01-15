@@ -30,13 +30,22 @@ layout: default
 		<h1>Steven Sawtelle</h1>
 		<h2>Arizona State University Class of 2019</h2>
 			<p>
-                <a href="/blog" class="nav">Check out my Blog!</a> or 
+                <a href="/blog" class="nav">Check out my Blog!</a>
+                <!-- or 
                 <a href="/puzzles" class="nav">Play some puzzles I made!</a>
+                 -->
             </p>
         </center>
 		<hr>
-		<div class="about-col">
-				<div class="about1">
+		<div class="about" style="max-width: 700px">
+			<center>
+				<h2>About Me</h2>
+				<p>Hi, I'm Steven Sawtelle! I'm a recent college grad currently working at Bloomberg as a Software Engineer. I'm currently working with the Philanthropy team to develop tools that make engaging employees in philanthropic events easier, and I love it. Before I graduated, I interned at <a class="linked" rel="nofollow" href="https://google.com/" alt="Google">Google</a>, <a class="linked" rel="nofollow" href="https://psware.com/" alt="Performance">Performance Software</a> and <a class="linked" rel="nofollow" href="https://viasat.com/" alt="ViaSat">ViaSat, Inc.</a> as a Software Engineering Intern and spent an amazing semester in 2017 studying abroad at the <a class="linked" rel="nofollow" href="http://nus.edu.sg/" alt="NUS">National University of Singapore</a>, where I took classes in Advanced Data Structures and Algorithms, Game Design, Bollywood Studies, and Linguistics.</p>
+				<p>I'm all about Software Engineering for good, so that's where I'm hoping to spend most of my career. If you want to talk about this with me, please feel free to reach out!</p>
+				<p>Some of my other interests are 3D printing, hiking, plotting, woodworking, game and escape room design/playing, public policy, writing(<a href="/blog" class="nav">check out my blog</a>), budget travel, and data visualization.</p>
+			</center>
+		</div>
+				<!-- <div class="about1">
 					<img class="gradhat" src="images/asu.png" alt="Education">
 					<p class="foo wow bounceInLeft" data-wow-duration="2s">Bachelor of Science in Computer Science</p>
 					<p class="wow bounceInLeft" data-wow-duration="2s"><i class="fa fa-university"></i>
@@ -47,30 +56,21 @@ layout: default
 					<p class="wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s"><i class="fa fa-university"></i>
 					National University of Singapore</p>
 					<p class="wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s"><i class="fa fa-calendar "></i> Fall 2017</p>
-				</div>
+				</div> -->
 				<!--
 				<div class="about2">
 				<center>
                         <img src="images/bry2.jpg" class="img-rounded" alt="steven profile" style="margin:0px;width:128px;height:145px;">
                 	</center>
 				</div>-->
-				<div class="about3">
-					<center><h2>About Me</h2></center>
-					
-					<p>Hi, I'm Steven Sawtelle! I'm a recent college grad currently working at Bloomberg as a Software Engineer. I'm currently working with the Philanthropy team to develop tools that make engaging employees in philanthropic events easier, and I love it. Before I graduated, I interned at <a class="linked" rel="nofollow" href="https://google.com/" alt="Google">Google</a>, <a class="linked" rel="nofollow" href="https://psware.com/" alt="Performance">Performance Software</a> and <a class="linked" rel="nofollow" href="https://viasat.com/" alt="ViaSat">ViaSat, Inc.</a> as a Software Engineering Intern and spent an amazing semester in 2017 studying abroad at the <a class="linked" rel="nofollow" href="http://nus.edu.sg/" alt="NUS">National University of Singapore</a>, where I took classes in Advanced Data Structures and Algorithms, Game Design, Bollywood Studies, and Linguistics.</p>
-
-					<p>I'm all about Software Engineering for good, so that's where I'm hoping to spend most of my career. If you want to talk about this with me, please feel free to reach out!</p>
-
-					<p>Some of my other interests are 3D printing, plotting, woodworking, game and escape room design/playing, public policy, writing(check out my blog), hiking, and data visualization.</p>
-
-					<center><div class="center-button wow">
+					<!-- <center><div class="center-button wow">
 					<a class="resume-link" href="StevenSawtelleResume.pdf" download>
 						<button class="button button2">
-							<span><i class="fa fa-download faa-vertical animated faa-slow"></i> Download My Resumé </span>
+							<span><i class="fa fa-download faa-vertical animated faa-slow"></i> Download My Resumé</span>
 						</button>
 					</a>
 					</div>
-					</center>
+					</center> -->
 	<!-- END OF about -->
 	<div class="contact" id="contact">
 			<div class="wow bounceInLeft" data-wow-duration="2s">
@@ -87,7 +87,6 @@ layout: default
 			<div>
 				<h1 class="contact-white">Contact Me</h1>
 			</div>
-
 			<div class="wow bounceInLeft" data-wow-duration="2s">
 				<a class="contact-icons" href="https://github.com/stevensawtelle" title="Steven Sawtelle GitHub">
 					<i class="fa fa-github fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
