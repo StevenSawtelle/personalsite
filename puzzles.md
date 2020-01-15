@@ -17,6 +17,8 @@ title: Puzzles
 <ul>
     <li>
         <a href="/crosswords" class="nav">Crosswords I've Made</a>
+    </li>
+    <li>
         <a href="/sudoku" class="nav">Sudokube (Heavy WIP)</a>
     </li>
 </ul>
